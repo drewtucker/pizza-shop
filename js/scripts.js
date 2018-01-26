@@ -30,5 +30,19 @@ console.log(Test.toppings.length);
 Test.Price();
 console.log(finalPrice);
 
-
 //USER INTERFACE LOGIC
+
+$(document).ready(function() {
+
+$("#sizeInput").submit(function(event) {
+  event.preventDefault();
+  $("div#sizeInput").hide();
+  $("#toppingsInput").show();
+});
+
+$("#toppingsInput").submit(function(event) {
+  event.preventDefault();
+});
+
+
+});
