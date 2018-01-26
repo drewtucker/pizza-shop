@@ -12,6 +12,15 @@ console.log(Test.toppings.length);
   this.toppings.forEach(function(topping){
     finalPrice += 1;
   });
+  if(this.size === "Large") {
+    finalPrice += 12;
+  }
+  else if (this.size === "Medium") {
+    finalPrice += 10;
+  }
+  else if (this.size === "Small") {
+    finalPrice += 6;
+  }
   };
 
 Test.Price();
