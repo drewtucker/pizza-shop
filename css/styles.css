@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+}
+
+
+#result {
+  display: none;
+  float: right;
+}
+#banner.row {
+  vertical-align: middle;
+  text-align: center;
+}
+
+#pizzaInput {
+  font-weight: 600;
+  float: left;
+  background-color: dodgerblue;
+  border-radius: 15px;
+  padding: 20px;
+}

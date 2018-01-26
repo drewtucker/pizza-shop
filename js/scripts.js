@@ -7,7 +7,6 @@ function Pizza(size, toppings){
   };
 
 var finalPrice = 0;
-var Test = new Pizza("Large", ["Olives", "Cheese", "Shit", "Stuff"]);
 
 //PRICE FUNCTION PROTOTYPE
   Pizza.prototype.Price = function(){
@@ -24,7 +23,6 @@ var Test = new Pizza("Large", ["Olives", "Cheese", "Shit", "Stuff"]);
     finalPrice += 6;
   }
   };
-
 
 //USER INTERFACE LOGIC
 
@@ -51,6 +49,6 @@ $("#pizzaInput").submit(function(event) {
 	});
 	userPizza.Price();
 	$("#result").text("Total: " + "$" + finalPrice + ".00");
-	console.log(finalPrice);
+	$("#result").fadeToggle();
 });
 });

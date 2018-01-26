@@ -10,7 +10,13 @@
   </head>
   <body>
     <div class="container">
-      <h1>Welcome to Pompous Pizza!</h1>
+      <div class="jumbotron">
+        <h1>Pompous Pizza</h1>
+      </div>
+      <div id="banner" class="row">
+        <h3>Welcome to Pompous Pizza!</h3>
+      </div>
+
       <div id="pizzaInput">
         <h3>Please select a size:</h3>
         <br>
@@ -39,7 +45,7 @@
 
       <form class="checkbox">
         <div class="checkbox">
-          <h6>Meats:</h6>
+          <h5>Meats:</h5>
           <label>
             <input type="checkbox" name="topping" value="Pepperoni">
             Pepperoni
@@ -63,7 +69,7 @@
             Anchovies
           </label>
         </div>
-        <h6>Veggies:</h6>
+        <h5>Veggies:</h5>
         <div class="checkbox">
           <label>
             <input type="checkbox" name="topping" value="Olives">
@@ -88,7 +94,7 @@
             Spinach
           </label>
         </div>
-        <h6>Other:</h6>
+        <h5>Other:</h5>
         <div class="checkbox">
           <label>
             <input type="checkbox" name="topping" value="Pineapple">
@@ -101,11 +107,12 @@
             Chocolate Sauce
           </label>
         </div>
-          <button type="submit" class="btn btn-info">Next</button>
+          <button type="submit" class="btn btn-danger">Next</button>
       </form>
     </div>
-    <h2 id="result"></h2>
-
+  </div>
+  <div class="container">
+      <h2 id="result"></h2>
   </div>
   </body>
 </html>
