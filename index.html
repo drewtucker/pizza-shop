@@ -11,44 +11,42 @@
   <body>
     <div class="container">
       <h1>Welcome to Pompous Pizza!</h1>
-      <div id="sizeInput">
+      <div id="pizzaInput">
         <h3>Please select a size:</h3>
         <br>
         <form class="radio">
           <div class="radio">
             <label>
               <input type="radio" name="size" value="Small">
-              Small
+              Small - $6.00
             </label>
           </div>
           <div class="radio">
             <label>
               <input type="radio" name="size" value="Medium">
-              Medium
+              Medium - $10.00
             </label>
           </div>
           <div class="radio">
             <label>
               <input type="radio" name="size" value="Large">
-              Large
+              Large - $12.00
             </label>
           </div>
           <br>
-          <button type="submit" class="btn btn-info">Next</button>
         </form>
-      </div>
+        <h3>Toppings ($1.00 each):</h3>
 
-    <div id="toppingsInput">
       <form class="checkbox">
         <div class="checkbox">
           <label>
-            <input type="checkbox" name="topping" value="pepperoni">
+            <input type="checkbox" name="topping" value="Pepperoni">
             Pepperoni
           </label>
         </div>
         <div class="checkbox">
           <label>
-            <input type="checkbox" name="topping" value="olives">
+            <input type="checkbox" name="topping" value="Olives">
             Olives
           </label>
         </div>
@@ -67,6 +65,7 @@
           <button type="submit" class="btn btn-info">Next</button>
       </form>
     </div>
+    <h2 id="result"></h2>
 
   </div>
   </body>
