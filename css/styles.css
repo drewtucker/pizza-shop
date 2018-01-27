@@ -1,25 +1,36 @@
 h1 {
   text-align: center;
-  color: darkred;
+  color: tomato;
   font-style: italic;
+  font-size: 70px;
 }
 
 
+
+body {
+  background-color: lightgray;
+}
 
 img {
   height: 200px;
   width: 200px;
 }
 
+#main {
+  background-color: maroon;
+  border-radius: 15px;
+}
 
 #result {
   display: none;
   float: right;
+  font-size: 3vw;
 }
 #banner.row {
   vertical-align: middle;
   text-align: center;
   font-style: oblique;
+  color: tomato;
 }
 
 #pizzaInput {
