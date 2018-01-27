@@ -10,17 +10,21 @@
   </head>
   <body>
     <div class="container">
-      <div class="jumbotron">
-        <h1>Pompous Pizza</h1>
-      </div>
+        <h1>Pompous <span><img src="img/pizza.png"></span> Pizza</h1>
+
       <div id="banner" class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-sm-2">
+
+        </div>
         <h3>Welcome to Pompous Pizza!</h3>
       </div>
 
       <div id="pizzaInput">
         <h3>Please select a size:</h3>
         <br>
-        <form class="radio">
+        <form id="sizeInput" class="radio">
           <div class="radio">
             <label>
               <input type="radio" name="size" value="Small">
@@ -43,7 +47,7 @@
         </form>
         <h4>Toppings ($1.00 each):</h4>
 
-      <form class="checkbox">
+      <form id="toppingsInput" class="checkbox">
         <div class="checkbox">
           <h5>Meats:</h5>
           <label>

@@ -1,5 +1,14 @@
 h1 {
   text-align: center;
+  color: darkred;
+  font-style: italic;
+}
+
+
+
+img {
+  height: 200px;
+  width: 200px;
 }
 
 
@@ -10,6 +19,7 @@ h1 {
 #banner.row {
   vertical-align: middle;
   text-align: center;
+  font-style: oblique;
 }
 
 #pizzaInput {

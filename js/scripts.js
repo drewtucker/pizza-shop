@@ -49,6 +49,9 @@ $("#pizzaInput").submit(function(event) {
 	});
 	userPizza.Price();
 	$("#result").text("Total: " + "$" + finalPrice + ".00");
-	$("#result").fadeToggle();
+	$("#result").show();
+	$("input:radio[name=size]").prop('checked', false);
+	$("input:checkbox[name=topping]").prop('checked', false);
+	finalPrice = 0;
 });
 });
